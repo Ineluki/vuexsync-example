@@ -1,10 +1,10 @@
 const Koa = require('koa');
 const serve = require('koa-static');
 const websockify = require('koa-websocket');
-const debug = require('debug')('vuexsync');
+const debug = require('debug')('vuex2vuex');
 const path = require('path');
 const Store = require('./Store');
-const Sync = require('vuexsync');
+const Sync = require('vuex2vuex');
 
 Error.stackTraceLimit = Infinity;
 

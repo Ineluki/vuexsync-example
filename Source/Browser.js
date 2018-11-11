@@ -1,8 +1,8 @@
-const debug = require('debug')('vuexsync');
+const debug = require('debug')('vuex2vuex');
 const ReconnectingWebSocket = require('reconnecting-websocket');
 const createLogger = require('vuex/dist/logger');
 const Store = require('./Store.js');
-const Sync = require('vuexsync');
+const Sync = require('vuex2vuex');
 
 const socket = new ReconnectingWebSocket('ws://'+document.location.host+'/',[],{
 	minReconnectionDelay: 250,

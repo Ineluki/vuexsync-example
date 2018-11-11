@@ -1,6 +1,6 @@
 const Vue = require('vue');
 const Vuex = require('vuex');
-const debug = require('debug')('vuesync');
+const debug = require('debug')('vuex2vuex');
 
 Vue.use(Vuex);
 

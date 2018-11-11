@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+	"build": "browserify -e Source/Browser.js -o Web/app.js",
     "watchify": "watchify -vd -e Source/Browser.js -o Web/app.js",
     "server": "node Source/Server.js"
   },
@@ -19,7 +20,8 @@
     "reconnecting-websocket": "^4.1.10",
     "vue": "^2.5.17",
     "vuex": "^3.0.1",
-    "watchify": "^3.11.0"
+    "watchify": "^3.11.0",
+    "vuex2vuex": "*"
   },
   "browserify": {
     "transform": [
